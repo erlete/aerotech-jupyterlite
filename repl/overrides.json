@@ -1,0 +1,8 @@
+{
+  "@jupyterlab/console-extension:tracker": {
+    "interactionMode": "terminal",
+    "theme": "JupyterLab Dark",
+    "toolbar": 1,
+    "kernel": "python"
+  }
+}
