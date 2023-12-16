@@ -1,8 +1,21 @@
 {
+  "@jupyterlab/apputils-extension:themes": {
+    "theme-scrollbars": true,
+    "theme": "JupyterLab Night"
+  },
   "@jupyterlab/console-extension:tracker": {
-    "interactionMode": "terminal",
-    "theme": "JupyterLab Dark",
-    "toolbar": 1,
-    "kernel": "python"
+    "isEnabled": true,
+    "interactionMode": "terminal"
+  },
+  "@jupyterlab/shortcuts-extension:plugin": {
+    "shortcuts": [
+      {
+        "command": "runmenu:run",
+        "keys": [
+          "Enter"
+        ],
+        "selector": "body"
+      }
+    ]
   }
 }
