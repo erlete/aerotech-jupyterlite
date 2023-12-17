@@ -1,0 +1,70 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build JupyterLite server",
+            "detail": "Build the JupyterLite server locally",
+            "type": "shell",
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "-m",
+                "jupyter",
+                "lite",
+                "build",
+                "--contents",
+                "content",
+                "--output-dir",
+                "dist"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "dependsOn": [
+                "Install Requirements",
+                "Copy Assets"
+            ],
+            "dependsOrder": "sequence",
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "Install Requirements",
+            "detail": "Install the JupyterLite server requirements",
+            "type": "shell",
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "-m",
+                "pip",
+                "install",
+                "-r",
+                "requirements.txt"
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "hide": true
+        },
+        {
+            "label": "Copy Assets",
+            "detail": "Copy the JupyterLite server assets",
+            "type": "shell",
+            "command": "cp",
+            "args": [
+                "README.md",
+                "contents"
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared"
+            },
+            "hide": true
+        }
+    ]
+}
