@@ -1,13 +1,19 @@
 {
   "jupyter-lite-schema-version": 0,
   "jupyter-config-data": {
-    "appName": "@erlete/jupyterlite-server",
+    "appName": "Aerotech JupyterLite Server",
+    "appVersion": "0.1.0",
+    "defaultKernelName": "python",
+    "faviconUrl": "./public/icons/favicon.ico",
+    "fileTypes": [
+      "ipynb"
+    ],
+    "theme": "JupyterLab Night",
+    "themesUrl": "./build/themes",
     "disabledExtensions": [
       "@jupyterlab/drawio-extension",
       "jupyterlab-kernel-spy",
       "jupyterlab-tour"
-    ],
-    "theme": "JupyterLab Night",
-    "themesUrl": "./build/themes"
+    ]
   }
 }
