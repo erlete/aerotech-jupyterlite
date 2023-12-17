@@ -1,29 +1,31 @@
-# JupyterLite Demo
+# UVigo Aerotech JupyterLite Server
 
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+Custom UVigo Aerotech JupyterLite server deployed as a static site to GitHub Pages.
 
-## ✨ Try it in your browser ✨
+## Motivation
 
-➡️ **https://jupyterlite.github.io/demo**
+This repository exists with the sole purpose of serving some static content files with `.ipynb` format to a web page for easier interaction. Check the [main course repository](https://github.com/erlete/aerotech-programming-course) for more information on the implementation.
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
-
-## Requirements
+## (JupyterLite) Requirements
 
 JupyterLite is being tested against modern web browsers:
 
 - Firefox 90+
 - Chromium 89+
 
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
+## (JupyterLite) Further Information and Updates
 
 For more info, keep an eye on the JupyterLite documentation:
 
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+- How-to Guides: <https://jupyterlite.readthedocs.io/en/latest/howto/index.html>
+- Reference: <https://jupyterlite.readthedocs.io/en/latest/reference/index.html>
+
+## Disclaimer
+
+*The UVigo Aerotech name and logo are property of the University of Vigo and the Aerotech team. This repository is not affiliated with or endorsed by the University of Vigo or Aerotech. The content of this repository is for educational purposes only.*
+
+*On the same note, the JupyterLite name and logo are property of the Project Jupyter team. This repository is not affiliated with or endorsed by the Project Jupyter team. The content of this repository is for educational purposes only.*
+
+*The functionality of the repository is subject to change without notice, due to the fact that JupiterLite is still in development. Do not use this repository for any critical applications or production environments unless you are willing to accept the risk of changes to the functionality.*
